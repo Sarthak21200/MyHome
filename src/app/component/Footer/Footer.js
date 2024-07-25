@@ -50,7 +50,7 @@ export const Footer = () => {
           </div>
 
           <div className="flex flex-col text-white lg:mr-[40px] lg:mt-[10px] mt-0 mr-[40px]">
-            <a href="mailto:priyanshulakra.07@gmail.com" className="text-white text-[13px]">priyanshulakra.07@gmail.com</a>
+            <a href="mailto:priyanshulakra.07@gmail.com" className="text-white text-[13px]">sarthak3764@gmail.com</a>
             <div className="w-full mt-2 text-white text-[13px]">
               <p className="w-[200px]">
                 {/* 747B, 7th floor, JMD Megapolis Sector 48, Gurgaon, Haryana 122018 */}

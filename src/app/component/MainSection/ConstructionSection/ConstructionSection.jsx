@@ -67,11 +67,11 @@ export const ConstructionSection = () => {
                 alt={item.subHeading}
                 className="h-[200px] rounded-t-[15px] object-cover"
               />
-              <div className="bg-white p-[20px] flex h-[200px] flex-col items-center gap-[20px] rounded-b-[15px]">
+              <div className="bg-blue-100 p-[20px] flex h-[200px] flex-col items-center gap-[20px] rounded-b-[15px]">
                 <p className="text-[#575757] text-[20px] font-semibold">
                   {item.title}
                 </p>
-                <p className="w-[267px] text-[16px] text-center">
+                <p className="w-[267px] text-[#575757] text-[16px] text-center">
                   {item.subHeading}
                 </p>
                 <FontAwesomeIcon

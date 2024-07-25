@@ -31,17 +31,17 @@ export const HeroSectionContent = () => {
       <div className='absolute inset-0'></div> 
       <div className='relative flex flex-col lg:w-1/2 w-full pl-[130px] text-white'>
         <div className='flex flex-col w-full lg:w-[500px] gap-[10px] text-[40px] font-semibold leading-[37px]'>
-          <h1 className='text-black text-[45px]'>Construct your</h1>
-          <h1 className='text-[#101010] text-[45px]'>Dream Home</h1>
+          <h1 className='text-black px-8 text-[40px]'>Reinvent your</h1>
+          <h1 className='text-[#101010] px-10 text-[37px]'>Dream Home</h1>
         </div>
-        <p className='text-[18px] leading-[24px] lg:w-[377px] w-[230px] font-medium mt-[22px] mb-[30px] text-black'>
-          Hassle free Interiors and Construction from start to finish.
+        <p className='text-[18px] px-10 leading-[24px] lg:w-[377px] w-[230px] font-medium mt-[22px] mb-[30px] text-black'>
+          Your End to End Solution
         </p>
-        <CommonButton onClick={handleClick}>Start your construction</CommonButton>
+        <CommonButton onClick={handleClick}>Start your Journey</CommonButton>
         <div className='flex items-center text-[12px] leading-[17px] gap-[12px] mt-[10px] font-medium text-black'>
-          Popular:
+          <div className='text-white'>Popular:</div>
           <HeroSectionButton onClick={handleClick} title='Interior designing' />
-          <HeroSectionButton onClick={handleClick} title='End to end construction' />
+          <HeroSectionButton onClick={handleClick} title='End to End Const.' />
         </div>
       </div>
       <div className='relative lg:w-1/2 w-full lg:pl-[104px] mt-10 lg:mt-0'>

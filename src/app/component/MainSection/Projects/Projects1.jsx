@@ -35,7 +35,7 @@ export const Projects = () => {
         {data.map((item, index) => (
           <div
             key={index}
-            className="group bg-brown rounded-lg overflow-hidden  border border-#575757 rounded-[5px]"
+            className="group bg-brown rounded-lg overflow-hidden  border border-#575757"
           >
             <div className="relative w-full h-[300px]">
               <Image

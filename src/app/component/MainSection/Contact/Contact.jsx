@@ -77,7 +77,7 @@ const Contact = () => {
               </div>
               <div className="flex-1">
                 <p className="text-lg  mb-1">Email</p>
-                <p className='text-[#575757]'>priyanshulakra.07@gmail.com</p>
+                <p className='text-[#575757]'>sarthak3764@gmail.com</p>
               </div>
             </div>
             <div className="flex items-start space-x-4">
@@ -86,7 +86,7 @@ const Contact = () => {
               </div>
               <div className="flex-1">
                 <p className="text-lg  mb-1">Phone number</p>
-                <p className='text-[#575757]'>9268369733</p>
+                <p className='text-[#575757]'>9717652238</p>
               </div>
             </div>
             <div className="flex items-start space-x-4">

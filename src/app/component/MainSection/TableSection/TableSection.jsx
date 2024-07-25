@@ -9,7 +9,7 @@ export const TableSection = () => {
       <div className='w-full h-auto grid lg:grid-cols-2 grid-cols-1 lg:gap-[27px] gap-[60px]'>
         <div className='grid grid-rows-6 gap-[20px] text-[17px] leading-5 font-medium'>
           <div className='bg-[#A46254] text-[#fff] py-[17px] border border-[#B1B1B1] rounded-md flex items-center justify-center'>
-            <span className='text-center'>House Banao</span>
+            <span className='text-center'>My Home</span>
           </div>
           <div className='bg-[white] text-[#BD7565] py-[17px] border border-[#B1B1B1] rounded-md flex items-center'>
             <span className='ml-4'>Secure Escrow Service</span>
@@ -34,7 +34,7 @@ export const TableSection = () => {
         </div>
         <div className='grid grid-rows-6 gap-[20px] text-[17px] leading-5 font-medium'>
           <div className='bg-[#A46254] text-[#fff] py-[17px] border border-[#B1B1B1] rounded-md flex items-center justify-center'>
-            <span className='text-center'>Contractors</span>
+            <span className='text-center'>Assurances</span>
           </div>
           <div className='bg-[white] text-[#BD7565] py-[17px] border border-[#B1B1B1] rounded-md flex items-center'>
             <span className='ml-4'>Insecure Payments, Higher Risk</span>

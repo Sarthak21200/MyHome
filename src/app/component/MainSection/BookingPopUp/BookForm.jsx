@@ -62,10 +62,10 @@ export const BookForm = () => {
       <div className="flex flex-col items-center mt-[8px]">
         {/* <Image src={logo} alt="Company Logo" width={100} height={100} /> */}
         <CommonHeading className={"text-[25px] font-extrabold"}>
-          Book your appointment
+          Get in Touch
         </CommonHeading>
         <SubHeading className={"text-center mt-[7px]"}>
-          Get free consultation
+          Free consultation
         </SubHeading>
 
         {successMessage && (
@@ -92,14 +92,6 @@ export const BookForm = () => {
             value={formData.phoneNo}
             onChange={handleChange}
           />
-          <CustomField
-            labelTitle="location"
-            FieldType="text"
-            placeholder="Location of your Plot"
-            name="location"
-            value={formData.location}
-            onChange={handleChange}
-          />
          
           <CustomField
             labelTitle="area"
@@ -118,7 +110,7 @@ export const BookForm = () => {
             value={formData.services}
             onChange={handleChange}
           />
-          <SubmitButton type="submit">Book Now</SubmitButton>
+          <SubmitButton type="submit">Contact Now</SubmitButton>
         </form>
       </div>
     </section>
