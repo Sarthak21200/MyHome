@@ -42,7 +42,6 @@ const Steps = () => {
         ))}
       </div>
       <div className="mt-10">
-        <CommonButton>Start your construction</CommonButton>
       </div>
     </div>
   );

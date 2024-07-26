@@ -9,7 +9,6 @@ const service = () => {
         <div className="bg-[#FAF7F6]">
             <House7 />
             <Contact />
-            <House8 />
         </div>
     );
 }

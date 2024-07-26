@@ -26,15 +26,15 @@ const rupeeCircleIcon = (
 );
 
 const iconsGroup1 = [
-  { icon: buildingIcon, label: '40 * 40 sq.ft' },
-  { icon: focusIcon, label: 'East' },
-  { icon: bedroomIcon, label: '3 bedrooms' }
+  { icon: buildingIcon, label: 'Area Dimension' },
+  { icon: focusIcon, label: 'Direction Facing' },
+  { icon: bedroomIcon, label: 'No.of Bedrooms' }
 ];
 
 const iconsGroup2 = [
-  { icon: triangleIcon, label: '3 floors', isSvg: true },
-  { icon: rupeeCircleIcon, label: '2,18,130', isSvg: true },
-  { icon: apartmentIcon, label: 'Residential' }
+  { icon: triangleIcon, label: 'No.of Floors', isSvg: true },
+  { icon: rupeeCircleIcon, label: 'Price', isSvg: true },
+  { icon: apartmentIcon, label: 'Type' }
 ];
 
 const BoxContent = ({ imageSrc, altText }) => (

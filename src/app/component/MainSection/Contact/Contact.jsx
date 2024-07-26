@@ -67,9 +67,6 @@ const Contact = () => {
 
         {/* Right Side Boxes */}
         <div className="w-full md:w-[550px] flex flex-col justify-between space-y-4 mx-4">
-          <div className="bg-white w-full h-[475px] rounded-lg mb-4">
-            <img src="/assets/images/contact.png" alt="Your Image" className="object-cover w-full h-full rounded-md" />
-          </div>
           <div className="bg-white w-full h-[300px] rounded-lg p-4 flex flex-col justify-center space-y-6">
             <div className="flex items-start space-x-4">
               <div className="bg-[#A46254] rounded-full h-14 w-14 flex items-center justify-center text-white">
@@ -95,7 +92,7 @@ const Contact = () => {
               </div>
               <div className="flex-1">
                 <p className="text-lg  mb-1">Address</p>
-                <p className='text-[#575757]'></p>
+                <p className='text-[#575757]'>Saket,New Delhi</p>
               </div>
             </div>
           </div>

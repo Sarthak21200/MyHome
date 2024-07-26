@@ -58,13 +58,13 @@ export const BookForm = () => {
   };
 
   return (
-    <section className="relative lg:w-[450px] w-full h-auto bg-gray-500 lg:rounded-[20px] rounded-none flex flex-col shadow-md mt-[70px] m-[10px] p-[20px] border-[0.5px] z-10">
+    <section className="relative lg:w-[450px] w-full h-auto bg-orange-200 lg:rounded-[20px] rounded-none flex flex-col shadow-md mt-[70px] m-[10px] p-[20px] border-[0.5px] z-10">
       <div className="flex flex-col items-center mt-[8px]">
         {/* <Image src={logo} alt="Company Logo" width={100} height={100} /> */}
         <CommonHeading className={"text-[25px] font-extrabold"}>
           Get in Touch
         </CommonHeading>
-        <SubHeading className={"text-center mt-[7px]"}>
+        <SubHeading className={"text-center text-black mt-[7px]"}>
           Free consultation
         </SubHeading>
 

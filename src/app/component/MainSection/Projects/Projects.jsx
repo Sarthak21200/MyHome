@@ -13,18 +13,15 @@ export const Projects = () => {
   const data = [
     {
       image: House1,
-      HNO: "CNR11011",
-      address: "62, 2nd Cross, Gurgaon, Delhi",
+      address: "62, 2nd Cross, Saket, Delhi",
     },
     {
       image: House2,
-      HNO: "CNR11012",
-      address: "63, 3rd Cross, Gurgaon, Delhi",
+      address: "63, 3rd Cross, Saket, Delhi",
     },
     {
       image: House3,
-      HNO: "CNR11013",
-      address: "64, 4th Cross, Gurgaon, Delhi",
+      address: "64, 4th Cross, Saket, Delhi",
     },
   ];
 
@@ -38,7 +35,7 @@ export const Projects = () => {
         {data.map((item, index) => (
           <div
             key={index}
-            className="group bg-brown overflow-hidden  border border-#575757 rounded-[5px]"
+            className="group bg-blue-100 overflow-hidden transition-transform duration-500 ease-in-out transform hover:scale-110 border border-blue-100 rounded-[7px]"
           >
             <div className="relative w-full h-[300px]">
               <Image
@@ -49,12 +46,9 @@ export const Projects = () => {
                 className="object-cover"
               />
             </div>
-            <div className="p-4 bg-white group-hover:bg-brown group-hover:text-white transition duration-300 ease-in-out">
+            <div className="p-4 bg-white group-hover:bg-black group-hover:text-white transition duration-300 ease-in-out">
               <div className="flex items-center justify-between">
                 <div className="flex flex-col text-xs mr-4">
-                  <p className="text-black group-hover:text-white transition duration-300 ease-in-out">
-                    {item.HNO}
-                  </p>
                   <p className="text-black group-hover:text-white transition duration-300 ease-in-out">
                     {item.address}
                   </p>
@@ -69,7 +63,7 @@ export const Projects = () => {
                       className="mb-1 filter invert group-hover:invert-0 transition duration-300 ease-in-out"
                     />
                     <p className="text-black text-[10px] group-hover:text-white transition duration-300 ease-in-out">
-                      3964 sq.ft.
+                      4000 sq.ft
                     </p>
                     <p className="text-black text-[10px] group-hover:text-white transition duration-300 ease-in-out">
                       Area

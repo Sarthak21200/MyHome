@@ -8,9 +8,7 @@ const Page = () => {
   return (
     <div className='bg-white'>
       <House3 />
-      
       <Floor />
-      <BookingPopTwo />
       <House6 />
     </div>
   );
