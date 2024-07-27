@@ -13,18 +13,15 @@ export const Projects = () => {
   const data = [
     {
       image: House1,
-      HNO: "CNR11011",
-      address: "62, 2nd Cross, Gurgaon, Delhi",
+      address: "62, 2nd Cross, Saket, Delhi",
     },
     {
       image: House2,
-      HNO: "CNR11012",
-      address: "63, 3rd Cross, Gurgaon, Delhi",
+      address: "63, 3rd Cross, Saket, Delhi",
     },
     {
       image: House3,
-      HNO: "CNR11013",
-      address: "64, 4th Cross, Gurgaon, Delhi",
+      address: "64, 4th Cross, Saket, Delhi",
     },
   ];
 

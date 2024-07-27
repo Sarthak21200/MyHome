@@ -1,5 +1,4 @@
 import React from "react";
-import { CommonHeading } from "../../Heading/CommonHeading";
 import Image from "next/image";
 import House1 from "../../../../../public/assets/images/House1.jpeg";
 import House2 from "../../../../../public/assets/images/House2.jpg";
@@ -7,7 +6,7 @@ import House3 from "../../../../../public/assets/images/House3.jpeg";
 import SquareIcon from "../../../../../public/assets/images/apartment.png";
 import TriangleIcon from "../../../../../public/assets/images/floor.png";
 import HouseIcon from "../../../../../public/assets/images/building.png";
-import { SubHeading } from "../../SubHeading/SubHeading";
+
 
 export const Projects = () => {
   const data = [
@@ -26,12 +25,7 @@ export const Projects = () => {
   ];
 
   return (
-    <div className="lg:max-w-[1290px] w-full mx-auto lg:px-[18px] mt-[60px] mb-[40px]">
-      <CommonHeading className="text-left">Our Projects</CommonHeading>
-      <SubHeading className="text-left w-[630px] lg:px-0 px-[10px] text-[14px]">
-        From a couple to a large Indian family, we have houses built with emotions for everyone.
-      </SubHeading>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 m-10">
         {data.map((item, index) => (
           <div
             key={index}
@@ -105,7 +99,6 @@ export const Projects = () => {
           </div>
         ))}
       </div>
-    </div>
   );
 };
 

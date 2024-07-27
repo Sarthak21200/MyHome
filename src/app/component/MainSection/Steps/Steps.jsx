@@ -12,7 +12,6 @@ import { CommonButton } from '../../Button/CommonButton'; // Corrected import pa
 const Steps = () => {
   const steps = [
     { img: step2, label: 'Meet Experts' },
-    { img: step2, label: 'Book with us' },
     { img: step3, label: 'Receive detailed plan' },
     { img: step4, label: 'Track and transact' },
     { img: step5, label: 'Move In' },
@@ -20,7 +19,7 @@ const Steps = () => {
 
   return (
     <div className="text-center bg-white py-6 relative">
-      <h1 className="text-2xl mb-4 text-black font-bold mt-8">Your dream home in 5 steps!</h1>
+      <h1 className="text-2xl mb-4 text-black font-bold mt-8">Your dream home in 4 steps!</h1>
       <p className="mb-8 text-black">Looking to design your home interiors? Here’s how you can get started.</p>
       <div className="flex flex-wrap justify-center items-center gap-4 mx-4 relative">
         {steps.map((step, index) => (

@@ -11,6 +11,21 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
+    "/ourprojects/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/ourprojects/page.js"
+    ],
+    "/service/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/service/page.js"
+    ],
+    "/pack/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/pack/page.js"
+    ],
     "/howitwork/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",

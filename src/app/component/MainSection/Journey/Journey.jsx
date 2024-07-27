@@ -6,22 +6,18 @@ export const Journey = () => {
     {
       title: 'Booking',
       description: 'Typically 1 week*',
-      note: 'You pay 10%',
     },
     {
       title: 'Design Phase',
       description: 'Typically 2-4 weeks*',
-      note: 'You pay 40%',
     },
     {
       title: 'Construction',
       description: 'Typically 8-12 weeks*',
-      note: 'You pay 40%',
     },
     {
       title: 'Final Touches',
       description: 'Typically 1-2 weeks*',
-      note: 'You pay 10%',
     },
   ];
 
@@ -31,8 +27,6 @@ export const Journey = () => {
     { title: 'Share your floor plan', description: 'We match you to a designer as per your requirements.' },
     { title: 'Speak to your designer', description: 'Your designer takes the time to understand your needs.' },
     { title: 'Design proposal', description: 'A design proposal and quotes are created based on your budget.' },
-    { title: 'Revised quote', description: 'Share your feedback and receive a revised proposal.' },
-    { title: 'You pay 10%', description: '' },
   ];
 
   return (
